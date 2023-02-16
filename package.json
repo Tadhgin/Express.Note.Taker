@@ -1,8 +1,8 @@
 {
-  "name": "note-taker",
+  "name": "express.note.taker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "/server.js",
   "scripts": {
     "start": "node server"
   },
@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "inquirer": "^8.2.4",
+    "nodemon": "^2.0.20",
+    "require": "^0.4.4"
   }
 }
