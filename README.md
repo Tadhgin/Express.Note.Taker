@@ -43,9 +43,9 @@ To run this project on your local machine, follow these steps:
 
 ## Usage
 
-To start the application, run the following command:
+  To start the application, run the following command:
 
-  npm start
+    npm start
 
 This will start the server and make the application available at http://localhost:3000.
 
