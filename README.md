@@ -14,7 +14,7 @@ GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
 WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, 
+THEN I am presented with a page with existing notes listed in the left-hand column,
   plus empty fields to enter a new note title and the note’s text in the right-hand column
 WHEN I enter a new note title and the note’s text
 THEN a Save icon appears in the navigation at the top of the page
@@ -49,7 +49,7 @@ To start the application, run the following command:
 
 This will start the server and make the application available at http://localhost:3000.
 
-Once the application is running, you can use it to create, view, update, and delete notes. 
+Once the application is running, you can use it to create, view, update, and delete notes.
 
 The notes are stored in the db.json file, which is updated automatically whenever a note is created, updated, or deleted.
 
@@ -69,6 +69,6 @@ This application is licensed under the MIT License.
 The following images show the web application's appearance and functionality:
 ![Note Taker](https://user-images.githubusercontent.com/117637052/225011082-0b17a02a-770c-4114-bb4a-616e90f504ab.gif)
 
-## URL 
+## URL
 Follow the link to use the app:
 https://tadhgin.github.io/Express.Note.Taker/
