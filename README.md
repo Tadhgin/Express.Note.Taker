@@ -1,4 +1,4 @@
-# Express.Note.Taker
+# Express Note Taker
 
 ## User Story
 ````
@@ -24,6 +24,33 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ````
+
+This is a web application that allows users to create, save, and delete notes. The application uses an Express.js back-end and saves and retrieves note data from a JSON file.
+
+## Installation
+
+To install the application, clone the repository to your local machine, navigate to the project directory, and run the following command to install the dependencies:
+
+npm install
+
+## Usage
+
+To start the application, run the following command:
+
+npm start
+
+To create a new note, click the "Get Started" button on the home page. Then, enter a title and text for your note and click the save icon in the top-right corner.
+
+To view an existing note, click on the note in the left-hand column.
+
+To delete an existing note, click on the note in the left-hand column and then click the trash icon in the top-right corner.
+Credits
+
+This application was created by Tadhgin White
+
+## License
+
+This application is licensed under the MIT License.
 
 ## Mock-Up
 The following images show the web application's appearance and functionality:
