@@ -1,4 +1,5 @@
 # Express Note Taker
+A web application that allows users to create, save, and delete notes. It uses an Express.js back-end and saves and retrieves note data from a JSON file.
 
 ## User Story
 ````
@@ -24,8 +25,6 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ````
-
-This is a web application that allows users to create, save, and delete notes. The application uses an Express.js back-end and saves and retrieves note data from a JSON file.
 
 ## Installation
 
