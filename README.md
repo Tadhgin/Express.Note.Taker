@@ -1,5 +1,5 @@
 # Express Note Taker
-A web application that allows users to create, save, and delete notes. It uses an Express.js back-end and saves and retrieves note data from a JSON file.
+A web application that allows users to create, save, and delete notes.
 
 ## User Story
 ````
@@ -27,23 +27,37 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ````
 
 ## Installation
+To run this project on your local machine, follow these steps:
 
-To install the application, clone the repository to your local machine, navigate to the project directory, and run the following command to install the dependencies:
+   1. Clone the repository to your local machine by running the following command in your terminal:
 
-npm install
+    git clone https://github.com/Tadhgin/Express.Note.Taker.git
+
+   2. Navigate to the project directory in your terminal:
+
+    cd Express.Note.Taker
+
+   3. Install the dependencies by running the following command:
+
+    npm install
 
 ## Usage
 
 To start the application, run the following command:
 
-npm start
+  npm start
 
-To create a new note, click the "Get Started" button on the home page. Then, enter a title and text for your note and click the save icon in the top-right corner.
+This will start the server and make the application available at http://localhost:3000.
 
-To view an existing note, click on the note in the left-hand column.
+Once the application is running, you can use it to create, view, update, and delete notes. 
 
-To delete an existing note, click on the note in the left-hand column and then click the trash icon in the top-right corner.
-Credits
+The notes are stored in the db.json file, which is updated automatically whenever a note is created, updated, or deleted.
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have a feature request, please open an issue on the GitHub repository.
+
+## Credits
 
 This application was created by Tadhgin White
 
