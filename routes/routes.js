@@ -12,7 +12,7 @@ module.exports = app => {
 
         // API ROUTES
         // ========================================================
-    
+
         // Setup the /api/notes get route
         app.get("/api/notes", function(req, res) {
             // Read the db.json file and return all saved notes as JSON.
@@ -46,9 +46,9 @@ module.exports = app => {
 
         // Display notes.html when /notes is accessed
         app.get('/notes', function(req,res) {
-            res.sendFile(path.join(__dirname, "../public/notes.html"));
+            res.sendFile(path.join(__dirname, "/api/notes.html"));
         });
-        
+
         // Display index.html when all other routes are accessed
         app.get('*', function(req,res) {
             res.sendFile(path.join(__dirname, "../public/index.js"));
