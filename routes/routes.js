@@ -46,7 +46,7 @@ module.exports = app => {
 
         // Display notes.html when /notes is accessed
         app.get('/notes', function(req,res) {
-            res.sendFile(path.join(__dirname, "notes.html"));
+            res.sendFile(path.join(__dirname, "../api/notes.html"));
         });
 
         // Display index.html when all other routes are accessed
