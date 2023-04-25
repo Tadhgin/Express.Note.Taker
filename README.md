@@ -70,5 +70,5 @@ The following images show the web application's appearance and functionality:
 ![Note Taker](https://user-images.githubusercontent.com/117637052/225011082-0b17a02a-770c-4114-bb4a-616e90f504ab.gif)
 
 ## URL
-Follow the link to use the app:
-https://tadhgin.github.io/Express.Note.Taker/
+Follow the link to use the app, redeployed to Heroku :)
+https://quiet-reaches-24125.herokuapp.com/
